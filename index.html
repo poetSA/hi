@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+  
+      .container {
+          max-width: 1200px;
+          display:block;
+          margin: auto;
+      }
+          .feature {
+              position: relative;
+          }
+.feature .text-wrap {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 40%;
+    transform: translate(-50%);
+    color: white #fff;
+}
+    
+    .columns .col {
+        display: inline-block;
+        width:33%;
+        position: relative;
+    }
+    .columns .col p {
+        position: absolute;
+        padding: 0 15px;
+        left: 5%;
+        bottom: 5%;
+        color: white;
+        font-weight: bold;
+    }
+    img {
+        display: block;
+        margin: auto;
+     max-width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+.columns .col { 
+    display: block;
+    width: 100%;
+    }
+}
+  </style>
+</head>
+
+
+<body>
+  <main>
+    <div class="container">
+      <h1>Hello</h1>
+      <section class="feature">
+       <a href="https://www.google.com/"> <img src="black opps 3.jpg"></a>
+    <div class="text-wrap">
+        <p>This is a sentence about Moon Knight. Moon Knight is a comic book and also a show on Disney Plus</p>
+      </section>
+      <section class="columns">
+        <div class="col">
+         <a href="https://www.google.com/"> <img src="batman and joker.png"></a>
+          <p>This is a sentence about Moon Knight. Moon Knight is a comic book and also a show on Disney Plus</p>
+        </div>
+        <div class="col">
+          <a href="https://www.google.com/"></a><img src="thor.png"></a>
+          <p>This is a sentence about Moon Knight. Moon Knight is a comic book and also a show on Disney Plus</p>
+        </div>
+        <div class="col">
+        <a href="https://www.google.com/"></a><img src="superman.png"></a>
+          <p>This is a sentence about Moon Knight. Moon Knight is a comic book and also a show on Disney Plus</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
