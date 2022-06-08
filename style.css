@@ -1,0 +1,32 @@
+h1 {
+font-family: space, sams-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    color: white#fff;
+}
+
+.space {
+    background-image: url(space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.space * {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+.hero h1
+.hero h2 {
+    margin: auto;
+    color:#fff;
+    text-align: center;
+}
