@@ -1,32 +1,88 @@
 h1 {
-font-family: space, sams-serif;
-    font-size: 45px;
+    font-family: jacket, sams-serif;
+    font-size: 50px;
     font-weight: bold;
 }
 
 h2 {
     font-size: 25px;
-    color: white#fff;
+    color: rgb(214, 19, 19)#fff;
 }
 
-.space {
-    background-image: url(space.jpg);
+.jacket {
+    background-image: url(jacket.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: cover-full;
+    height: 45vh;
     position: relative;
 }
-.space * {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+
+.jacket * {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transform: translate(-50%, -50%);
 }
 
 
-.hero h1
-.hero h2 {
+.hero h1 .hero h2 {
     margin: auto;
-    color:#fff;
+    color: #fff;
     text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.col {
+    flex: 1 0 0%;
+}
+
+.video {
+    position: relative;
+    top: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-section {
+    max-width: 900px;
+    display: block;
+    margin: auto;
+
+}
+header {
+    background-color: #333;
+
+}
+header a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
